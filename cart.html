@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="images/logo.png" class="logo" alt="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li id="lg-bag" > 
+            <a class="active" href="cart.html"><i class="bx bx-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="bx bx-x"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="bx bx-shopping-bag"></i></a>
+        <i id="bar" class="bx bx-menu"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#KnowUs</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur, amet</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subototal</td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class='bx bxs-x-circle'></i></a></i></td>
+                    <td><img src="images/products/f1.jpg" alt="" /></td>
+                    <td>Cartoon Astrounout T-Shirts</td>
+                    <td>$116.23</td>
+                    <td><input type="number" max="10"  value="1" /></td>
+                    <td>$116.23</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class='bx bxs-x-circle'></i></a></i></td>
+                    <td><img src="images/products/f2.jpg" alt="" /></td>
+                    <td>Cartoon Astrounout T-Shirts</td>
+                    <td>$116.23</td>
+                    <td><input type="number" max="10"  value="1" /></td>
+                    <td>$116.23</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class='bx bxs-x-circle'></i></a></i></td>
+                    <td><img src="images/products/f3.jpg" alt="" /></td>
+                    <td>Cartoon Astrounout T-Shirts</td>
+                    <td>$116.23</td>
+                    <td><input type="number" max="10" value="1" /></td>
+                    <td>$116.23</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupons</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon" />
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="images/logo.png" class="logo" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> 562 Wellingto Road, Street 32, San Francisko
+        </p>
+        <p><strong>Phone:</strong> +21 2222 345 / (+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-pinterest"></i>
+            <i class="bx bxl-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="images/pay/app.jpg" alt="" />
+          <img src="images/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="images/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>@ 2022, Blendi - HTML CSS Ecommerce</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
