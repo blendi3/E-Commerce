@@ -20,9 +20,8 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
           <li><a class="active" href="about.html">About</a></li>
-          <li id="lg-bag">
-            <a href="cart.html"><i class="bx bx-shopping-bag"></i></a>
-          </li>
+          <button class="login" ><i class='bx bxs-user'></i></button>
+          <button class="shop" id="lg-bag"><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></button>
           <a href="#" id="close"><i class="bx bx-x"></i></a>
         </ul>
       </div>
@@ -31,6 +30,27 @@
         <i id="bar" class="bx bx-menu"></i>
       </div>
     </section>
+
+    <section id="loginForm">
+      <div class="overlay">
+          <div class="loginform">
+              <h2>Log In</h2>
+              <span class="close">&times;</span>
+              <form action="">
+                  <div>   
+                      <label for="Email">Email</label>
+                      <input type="email" placeholder="Enter Your Email" />
+                  </div>
+                  <div>
+                      <label for="Password">Password</label>
+                      <input type="password" placeholder="Enter Your Password" />
+          
+                  </div>
+                  <button>Sign In</button>
+              </form>
+          </div>
+      </div>
+  </section>
 
     <section id="page-header" class="about-header">
       <h2>#KnowUs</h2>
